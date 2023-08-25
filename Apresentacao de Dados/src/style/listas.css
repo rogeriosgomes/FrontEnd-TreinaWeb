@@ -1,0 +1,8 @@
+.lista-ordenada {
+    list-style:decimal;
+    
+}
+
+.lista-nao-ordenada {
+    list-style: circle;
+}

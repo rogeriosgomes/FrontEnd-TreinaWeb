@@ -1,0 +1,17 @@
+table, td, th {
+    border: solid 3px rgba(235, 242, 236, 0.629);
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 150px;
+    text-align: center;
+}
+
+th {
+    background-color:  rgb(75, 201, 243);
+}
+
+td {
+    background-color:rgb(147, 150, 152) ;
+}

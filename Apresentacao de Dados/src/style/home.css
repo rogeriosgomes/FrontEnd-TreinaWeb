@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    list-style: none;
+    background-color: rgb(7, 247, 243);
+    margin: 0;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+
+}
