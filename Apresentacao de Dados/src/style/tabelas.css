@@ -1,4 +1,4 @@
-table, td, th {
+/* table, td, th {
     border: solid 3px rgba(235, 242, 236, 0.629);
     border-collapse: collapse;
 }
@@ -14,4 +14,48 @@ th {
 
 td {
     background-color:rgb(147, 150, 152) ;
+} */
+
+table {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.tabela-1 th {
+    background-color: rgb(55, 148, 117);
+    font-size: 1.3em;
+    width: calc(100%/7);
+}
+
+.tabela-1 td {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgb(182, 224, 224);
+}
+
+.tabela-1 td:hover {
+    background-color: rgb(226, 178, 178);
+    cursor: pointer;
+}
+
+.tabela-1 th:hover{
+    background-color: rgb(17, 98, 71);
+    cursor: pointer;
+}
+
+.tabela-2 tr:first-child {
+    background-color: rgb(189, 232, 189);
+}
+
+.tabela-3 {
+    text-align:  left;
+}
+
+.tabela-3 tr:nth-child(even) {
+    background-color:darkgray;
 }

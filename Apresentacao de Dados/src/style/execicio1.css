@@ -1,0 +1,100 @@
+.tabela {
+    margin-bottom: 50px;
+    width: 100%;
+    color: white;
+    background-color: gray;
+}
+
+.tabela, .tabela th, .tabela td {
+    
+    border: solid 2px gray;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tabela th {
+      text-align: left;
+      
+   
+}
+
+.tabela td {
+    background-color: black;
+}
+
+.tabela-2 {
+   width: 50%;
+   margin: 0 auto; 
+   border-collapse: collapse;
+   text-align: left;
+   margin-bottom: 50px;
+}
+
+.tabela-2 th {
+    width: 500px;
+    border-bottom: solid 3px black;
+
+    
+}
+
+.tabela-2 td {
+    border-bottom: solid 1px gray;
+    padding: 10px 10px 10px 0px;
+}
+
+.tabela-2 tbody tr:hover{
+    background-color: gray;
+
+}
+
+.linha-1 {
+    font-weight: bold;
+}
+
+.tabela-3{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+   
+}
+
+.tabela-3, th, td {
+    border: solid 1px rgb(224, 223, 223);
+    padding: 10px;
+}
+
+thead tr:first-child {
+    color: rgb(182, 176, 176);
+    text-transform: uppercase;
+}
+
+.preco {
+    font-size: 3em;
+    color: white;
+}
+
+.basico {
+    background-color: aqua;
+}
+.padrao {
+    background-color: blue;
+}
+.avancado {
+    background-color: bisque;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    opacity: .3;
+    cursor: pointer;
+
+}
+
+
