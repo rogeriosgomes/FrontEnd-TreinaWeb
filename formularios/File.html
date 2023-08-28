@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File</title>
+    </head>
+    <body>
+        <form action>
+            <label for="arquivo">Selecione um Arquivo</label>
+            <br>
+            <input type="file" name id="arquivo" multiple>
+            <br>
+            <fieldset>
+                <legend>checkbox</legend>
+                <label for="amarelo">Amarelo</label>
+                <input type="checkbox" name id="Amarelo" checked>
+                <br>
+                <label for="azul">azul</label>
+                <input type="checkbox" name id="azul">
+                <br>
+                <label for="vermelho">Vermelhor</label>
+                <input type="checkbox" name id="vermelho" disabled>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Radio</legend>
+                <input type="radio" name="cores" id="Amarelo" checked>
+                <label for="amarelo">Amarelo</label>
+
+                <br>
+                <input type="radio" name="cores" id="azul">
+                <label for="azul">azul</label>
+
+                <br>
+                <input type="radio" name="cores" id="vermelho">
+                <label for="vermelho">Vermelhor</label>
+
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Range</legend>
+                <label for="volume">volume</label>
+                <input type="range" name id="volume" min="0" max="50" step="10"
+                    value="0">
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>inputs avançado - color</legend>
+                <label for="cor">Selecione uma Cor</label>
+                <input type="color" name id="cor">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Cadastro Pessoais</legend>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome"
+                    size="40" required pattern="[a-zA-Z]{2,50}" title="Insira somente letras">
+                <br>
+                <br>
+                <label for="fone">Telefone</label>
+                <input type="tel" name id="fone" placeholder="(99) - 9999-9999">
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+
+        </form>
+    </body>
+</html>
